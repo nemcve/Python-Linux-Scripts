@@ -7,9 +7,9 @@
 
 import os
 
-dirs_files = list(os.path.walk("/home/Nemanja"))
 
-for dirname, pathname, filename in dirs_files:
+for dirname, pathname, filename in os.walk("/home/Nemanja"):
     print(dirname)
     for file in filename:
         print(os.path.join(dirname,file))
+
