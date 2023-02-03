@@ -1,4 +1,4 @@
-#!/usr/bin/env/ python3
+#!/usr/bin/python3
 
 
 # script that lists all files in a directory, including all files 
