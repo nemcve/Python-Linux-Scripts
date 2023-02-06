@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
 
-# script that lists all files in a directory, including all files 
-# in subfolders of that directory
+# script that lists all files in a directory, including all files in subfolders of that directory
 
 
 import os
