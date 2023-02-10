@@ -1,7 +1,7 @@
 # Search inside the directories and their subdirectories for the files with a specific extension
 # Usage:
-# Linux - python script3.py /home/Nemanja .txt | less
-# Windows - python script3.py C:/Users/Nemanja .txt | out-host -paging
+# Linux - python3 script3.py /home/Nemanja .txt | less
+# Windows - python3 script3.py C:/Users/Nemanja .txt | out-host -paging
 
 import os
 import argparse
