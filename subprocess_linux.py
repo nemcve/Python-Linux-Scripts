@@ -4,5 +4,12 @@
 
 import subprocess
 
-commands = ['powershell', '--command', 'dir']
-s1 = subprocess.call(commands, shell=True)
+commands = ['sudo', 'find', '/etc', '-name', '*.conf']
+s1 = subprocess.Popen(commands, shell=False, stdout=subprocess.PIPE,
+                      stderr=subprocess.PIPE, universal_newlines=True)
+
+
+out, err = s1.communicate()
+rt = s1.wait()
+print(out)
+print(err)
